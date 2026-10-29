@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Junction, SignalState, VehicleQueue, ProcessedEvent
 
-# Register your models here.
+admin.site.register(Junction)
+admin.site.register(SignalState)
+admin.site.register(VehicleQueue)
+admin.site.register(ProcessedEvent)
